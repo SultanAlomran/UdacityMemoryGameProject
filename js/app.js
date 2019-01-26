@@ -208,7 +208,7 @@ let closeModal = function() {
  * If total matched cards equals total of all cards game is over and show results (Modal)
  */
 let isGameOver = function() {
-  if (matchedCards.length === cardsIcons.length) {
+  if (matchedCards.length === 16) {
     showModal();
     modal.classList.toggle("d-none");
   }
