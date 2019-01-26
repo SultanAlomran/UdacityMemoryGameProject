@@ -127,11 +127,6 @@ let openCard = function() {
     card.addEventListener("click", function() {
       //  if there is an existing card in opened card array do the following
       if (openedCards.length === 1) {
-        // run the timer once only if clicked on any card
-        if (firstClick == true) {
-          setInterval(setTimer, 1000); // start
-          firstClick = false;
-        }
         // show card and add it to the openedCardsarray
         displayCard(card);
         openedCards.push(card);
@@ -152,6 +147,11 @@ let openCard = function() {
         incrementMoveCounter();
         // if opened cards array is empty
       } else {
+         // run the timer once only if clicked on any card
+         if (firstClick == true) {
+          setInterval(setTimer, 1000); // start
+          firstClick = false;
+        }
         displayCard(card);
         openedCards.push(card);
       }
