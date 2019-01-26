@@ -97,6 +97,9 @@ let setTimer = function() {
 /*
  * calculateStarRatingScore
  */
+
+let stars = document.querySelectorAll(".fa-star");
+
 let calculateStarRatingScore = function() {
   stars.forEach(star => {
     star.classList.add("yellowStars");
@@ -174,6 +177,7 @@ let startGame = function() {
   openCard();
 };
 let showModal = function() {
+  console.log("modal");
   let modalContent = document.getElementsByClassName("modal-content")[0];
   let closeBtn = document.getElementsByClassName("closeBtn")[0];
   let totalMoves = document.getElementsByClassName("totalMoves")[0];
@@ -187,12 +191,11 @@ let showModal = function() {
   closeBtn.addEventListener("click", closeModal);
   // atatch final (moves,timing,score) in the modal
   totalMoves.textContent = "Total Moves :   " + moveCounter.textContent;
-  starRatingScoreClone.innerHTML =
-    "Final Rating :  " + starRatingScoreClone.innerHTML;
-  modalContent.insertBefore(starRatingClone, RestartBtn);
+  starRatingScoreClone.innerHTML = "Final Rating :  " + starRatingScoreClone.innerHTML;
+  modalContent.insertBefore(starRatingScoreClone, RestartBtn);
   timerClone.innerHTML = "Final time :    " + timerClone.innerHTML;
   modalContent.insertBefore(timerClone, RestartBtn);
-  starRatingClone.id = "cloneRating";
+  starRatingScoreClone.id = "cloneRating";
   // reset game on click
   RestartBtn.addEventListener("click", function() {
     location.reload();
