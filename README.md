@@ -18,10 +18,10 @@ Each turn:
 - The game ends once all cards have been correctly matched.
 
 1. 2 Cards are matched :
-![alt text](https://imgur.com/a/oLpAiY2)
+![alt text](https://i.postimg.cc/66tSn6s7/memorygame1.png)
 
 2. All cards are matched (You won!) :
-![alt text](https://imgur.com/95T76HI.png)
+![alt text](https://i.postimg.cc/2mDgPGqz/memorygame2.png)
 
 ### Technical
 This project consists of the following assets:
