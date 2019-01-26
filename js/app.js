@@ -3,22 +3,22 @@
  */
 // list of cardIcons that will be appended to html
 let cardsIcons = [
-  "fa-anchor",
-  "fa-anchor",
-  "fa-bicycle",
-  "fa-bolt",
-  "fa-cube",
-  "fa-diamond",
-  "fa-diamond",
-  "fa-plane",
-  "fa-leaf",
-  "fa-bomb",
-  "fa-leaf",
-  "fa-bomb",
-  "fa-bolt",
-  "fa-bicycle",
-  "fa-plane",
-  "fa-cube"
+  "fa-js-square",
+  "fa-js-square",
+  "fa-html5",
+  "fa-html5",
+  "fa-css3-alt",
+  "fa-react",
+  "fa-css3-alt",
+  "fa-gulp",
+  "fa-react",
+  "fa-grunt",
+  "fa-angular",
+  "fa-grunt",
+  "fa-sass",
+  "fa-sass",
+  "fa-gulp",
+  "fa-angular"
 ];
 // holds the  two opened cards to be compared
 let openedCards = [];
@@ -38,6 +38,7 @@ let lblSeconds = document.getElementById("seconds");
 let lblMinutes = document.getElementById("minutes");
 let totalSeconds = 0;
 let modal = document.getElementById("congratsModal");
+let stars = document.querySelectorAll(".fa-star");
 /*
  * This function will add a move each time its called
  */
@@ -97,8 +98,6 @@ let setTimer = function() {
 /*
  * calculateStarRatingScore
  */
-
-let stars = document.querySelectorAll(".fa-star");
 
 let calculateStarRatingScore = function() {
   stars.forEach(star => {
@@ -170,7 +169,7 @@ let startGame = function() {
   for (let i = 0; i < cardsIcons.length; i++) {
     let card = document.createElement("li");
     card.classList.add("card");
-    card.innerHTML = `<i class="fa ${shuffledCards[i]}"></i>`;
+    card.innerHTML = `<i class="fab ${shuffledCards[i]}"></i>`;
     documentFragment.appendChild(card);
   }
   deck.appendChild(documentFragment);
