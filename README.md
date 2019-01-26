@@ -21,7 +21,7 @@ Each turn:
 ![alt text](https://i.imgur.com/yuzC7NM.png)
 
 2. All cards are matched (You won!) :
-![alt text](https://i.imgur.com/PhlUkrx.png)
+![alt text](https://imgur.com/a/oLpAiY2.png)
 
 ### Technical
 This project consists of the following assets:
