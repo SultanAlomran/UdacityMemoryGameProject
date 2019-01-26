@@ -2,7 +2,7 @@
  This Web application game (memory game) was deveoleped using HTML , CSS and Pure Js. Part of the front end nanodegree from Udacity.
 ## Table of Contents
 
-* [Game Rules](#GameRules)
+* [Game Rules](#Game Rules)
 * [Technical](#Technical)
 * [Tools](#Tools)
 
@@ -18,10 +18,10 @@ Each turn:
 - The game ends once all cards have been correctly matched.
 
 1. 2 Cards are matched :
-![alt text](https://i.imgur.com/yuzC7NM.png)
+![alt text](https://imgur.com/a/oLpAiY2)
 
 2. All cards are matched (You won!) :
-![alt text](https://imgur.com/a/oLpAiY2.png)
+![alt text](https://imgur.com/95T76HI.png)
 
 ### Technical
 This project consists of the following assets:
