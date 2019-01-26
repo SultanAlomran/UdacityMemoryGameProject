@@ -18,10 +18,10 @@ Each turn:
 - The game ends once all cards have been correctly matched.
 
 1. 2 Cards are matched :
-![alt text](https://serving.photos.photobox.com/61320972898e0bb3bca0c2e0678790c13f8a5adaeba690072fd5c7ec8b45f0228f230477.jpg)
+![alt text](https://imgur.com/a/oLpAiY2)
 
 2. All cards are matched (You won!) :
-![alt text](https://serving.photos.photobox.com/432901228fd533b0c740e31cbf53cf0540128fea5ec43e4eb4a0570dc658c0113f5692e1.jpg)
+![alt text](https://imgur.com/a/oLpAiY2)
 
 ### Technical
 This project consists of the following assets:
