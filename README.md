@@ -2,7 +2,7 @@
  This Web application game (memory game) was deveoleped using HTML , CSS and Pure Js. Part of the front end nanodegree from Udacity.
 ## Table of Contents
 
-* [Game Rules](#Game Rules)
+* [Game Rules](#GameRules)
 * [Technical](#Technical)
 * [Tools](#Tools)
 
