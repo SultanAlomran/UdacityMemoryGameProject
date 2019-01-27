@@ -1,5 +1,10 @@
 # Memory Game Project
  This Web application game (memory game) was deveoleped using HTML , CSS and Pure Js. Part of the front end nanodegree from Udacity.
+
+Memory Game Link :
+
+Play the Game - [Click Here](https://htmlpreview.github.io/?https://github.com/SultanAlomran/UdacityMemoryGameProject/blob/master/index.html)
+ 
 ## Table of Contents
 
 * [GameRules](#GameRules)
